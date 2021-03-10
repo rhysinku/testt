@@ -3,9 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="testt.MainPage">
 
+    
     <StackLayout BackgroundColor="DarkSlateBlue" >
-        <Frame>
-            <Label Text="Names"/>
+        <Frame BackgroundColor="DeepSkyBlue">
+            <Label Text="Rhysin Villahermosa &amp; Mark Neo Mamalias"/>
         </Frame>
         <Label  Text="Insert Height" Padding="30,30,30,30" FontAttributes="Bold" TextColor="White"  />
         <Entry x:Name="Heights" TextColor="White" HorizontalTextAlignment ="Center" Keyboard="Numeric" />
