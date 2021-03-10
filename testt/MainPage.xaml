@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="testt.MainPage">
+
+    <StackLayout BackgroundColor="DarkSlateBlue" >
+        <Label  Text="Insert Height" Padding="30,30,30,30" FontAttributes="Bold" TextColor="White"  />
+        <Entry x:Name="Heights" TextColor="White" HorizontalTextAlignment ="Center" Keyboard="Numeric" />
+
+        <Label  Text="Insert Weight" Padding="30,30,30,30" FontAttributes="Bold" TextColor="White"/>
+        <Entry x:Name="Weights" TextColor="White" HorizontalTextAlignment ="Center" Keyboard="Numeric"   />
+
+        <Label  Text="TOTAL" Padding="30,30,30,30" FontAttributes="Bold" TextColor="White"/>
+        <Label x:Name="Total" Padding="30,30,30,30" TextColor="White" HorizontalTextAlignment ="Center" FontSize="20" TextDecorations="Underline"/>
+
+        <Label  Text="BMI STATUS" Padding="30,30,30,30" FontAttributes="Bold" TextColor="White"/>
+        <Label x:Name="BMI" Padding="30,30,30,30" TextColor="White" HorizontalTextAlignment ="Center" FontSize="20" TextDecorations="Underline"/>
+        <Label   Padding="20,0,0,0" />
+        <Button Text="Calculate" Clicked="Button_Clicked" WidthRequest="150" HorizontalOptions="Center"/>
+    </StackLayout>
+
+</ContentPage>
